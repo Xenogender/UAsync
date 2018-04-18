@@ -4,3 +4,5 @@ name: golangci
 on:
   push:
     branches: [main]
+    
+jobs:
