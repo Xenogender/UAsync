@@ -20,3 +20,6 @@ jobs:
     
     - name: Setting up golang 
       uses: actions/setup-go@v3
+      with:
+        go-version: 1.20
+          
