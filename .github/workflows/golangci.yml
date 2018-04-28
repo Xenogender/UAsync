@@ -23,3 +23,7 @@ jobs:
       with:
         go-version: 1.20
           
+    - name: Build and Push docker image
+      run: |
+         docker image build -t ${{ secrets.DOCKERHUB_USERNAME }}/diegobot . 
+         docker tag ${{ secrets.DOCKERHUB_USERNAME }}/diegobot ${{ secrets.DOCKERHUB_USERNAME }}/diegobot:latest
