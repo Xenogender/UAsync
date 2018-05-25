@@ -2,4 +2,4 @@ CHANGELOG
 
 ## UNRELEASED
 
-[v1.
+[v1.0.
