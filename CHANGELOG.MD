@@ -2,4 +2,4 @@ CHANGELOG
 
 ## UNRELEASED
 
-[v1.0.0 - 2023-0
+[v1.0.0 - 2023-02
