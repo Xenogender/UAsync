@@ -6,4 +6,4 @@ CHANGELOG
 
 ## What’s New?
 
-In this v
+In this ve
