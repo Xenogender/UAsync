@@ -6,4 +6,4 @@ CHANGELOG
 
 ## What’s New?
 
-In this version, n
+In this version, now 
