@@ -6,4 +6,4 @@ CHANGELOG
 
 ## What’s New?
 
-In this version, now 
+In this version, now Die
