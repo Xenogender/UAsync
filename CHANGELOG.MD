@@ -6,4 +6,4 @@ CHANGELOG
 
 ## What’s New?
 
-In this version, now Die
+In this version, now Diego
