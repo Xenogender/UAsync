@@ -6,4 +6,4 @@ CHANGELOG
 
 ## What’s New?
 
-In this version, now Diego bot in
+In this version, now Diego bot intro
