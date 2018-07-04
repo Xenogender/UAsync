@@ -6,4 +6,4 @@ CHANGELOG
 
 ## What’s New?
 
-In this version, now Diego bot introduces 4 com
+In this version, now Diego bot introduces 4 command 
