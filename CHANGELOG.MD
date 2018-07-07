@@ -7,4 +7,4 @@ CHANGELOG
 ## What’s New?
 
 In this version, now Diego bot introduces 4 command prefix features
-followe
+followed b
