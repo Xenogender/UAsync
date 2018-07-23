@@ -9,4 +9,4 @@ CHANGELOG
 In this version, now Diego bot introduces 4 command prefix features
 followed by a !
 
-Yet need to f
+Yet need to find
