@@ -9,4 +9,5 @@ CHANGELOG
 In this version, now Diego bot introduces 4 command prefix features
 followed by a !
 
-Yet need to find an good API to generate images with more efficience, t
+Yet need to find an good API to generate images with more efficience, the
+cu
