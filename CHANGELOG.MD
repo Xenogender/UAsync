@@ -10,4 +10,4 @@ In this version, now Diego bot introduces 4 command prefix features
 followed by a !
 
 Yet need to find an good API to generate images with more efficience, the
-current API that Diego requests for images h
+current API that Diego requests for images has 
