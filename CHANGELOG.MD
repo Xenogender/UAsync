@@ -11,3 +11,4 @@ followed by a !
 
 Yet need to find an good API to generate images with more efficience, the
 current API that Diego requests for images has inconsistency.
+
