@@ -14,3 +14,5 @@ RUN go mod download && go mod tidy
 EXPOSE 4000
 
 RUN go build -o /go/app/diegobot
+
+CMD ["/go/app/diegobot"]
