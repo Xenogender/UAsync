@@ -6,3 +6,5 @@
   GO DIEGO - BOT
   <br>
 </h1>
+
+<h4 align="center">Bot features made with golang for <a href="https://www.discord.com" target="_blank">Discord</a> (is unfinished and close project yet).</h4>
