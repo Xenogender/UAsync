@@ -20,3 +20,7 @@
 </p>
 
 ## Key Features
+
+* Command prefix
+  - The bot responses with a command prefix, that's a "!".
+* Ping-pong
