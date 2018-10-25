@@ -24,3 +24,5 @@
 * Command prefix
   - The bot responses with a command prefix, that's a "!".
 * Ping-pong
+  - If you send !ping, the bot responses pong, else if !pong, the bot responses ping.
+* Help java!
