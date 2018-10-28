@@ -26,3 +26,7 @@
 * Ping-pong
   - If you send !ping, the bot responses pong, else if !pong, the bot responses ping.
 * Help java!
+  - if you type a phrase that have java in the string, the bot will tag the some members (i add example member ID) in the server to help you. (CUSTOMIZABLE)
+* Greeting
+  - The bot will greeting you if you send "!Oi diego" to him.
+* Image generator
