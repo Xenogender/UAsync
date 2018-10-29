@@ -30,3 +30,6 @@
 * Greeting
   - The bot will greeting you if you send "!Oi diego" to him.
 * Image generator
+  - Diego bot responses with an image if you send "!picture (your substantive).
+
+## How To Use
