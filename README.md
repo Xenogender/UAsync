@@ -33,3 +33,7 @@
   - Diego bot responses with an image if you send "!picture (your substantive).
 
 ## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Golang](https://go.dev/learn/) and the [Docker](https://www.docker.com/) to run the app in container 
+```bash
+# Clone this repository
