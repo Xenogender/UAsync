@@ -37,3 +37,6 @@
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Golang](https://go.dev/learn/) and the [Docker](https://www.docker.com/) to run the app in container 
 ```bash
 # Clone this repository
+$ git clone https://github.com/Leoff00/go-diego-bot.git
+
+# Go into the repository
