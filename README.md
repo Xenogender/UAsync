@@ -40,3 +40,6 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [G
 $ git clone https://github.com/Leoff00/go-diego-bot.git
 
 # Go into the repository
+$ cd go-diego-bot
+
+# Run the project locally
