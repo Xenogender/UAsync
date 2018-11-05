@@ -43,3 +43,4 @@ $ git clone https://github.com/Leoff00/go-diego-bot.git
 $ cd go-diego-bot
 
 # Run the project locally
+$ go mod download && go mod tidy && go run main.go
