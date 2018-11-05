@@ -44,3 +44,6 @@ $ cd go-diego-bot
 
 # Run the project locally
 $ go mod download && go mod tidy && go run main.go
+
+# Run the project in container
+$ docker-compose up 
