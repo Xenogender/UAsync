@@ -47,3 +47,7 @@ $ go mod download && go mod tidy && go run main.go
 
 # Run the project in container
 $ docker-compose up 
+```
+
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `golang` from the command prompt.
