@@ -60,3 +60,7 @@ You can [download](https://github.com/amitmerchant1990/electron-markdownify/rele
 ## Credits
 
 This software uses the following open source packages:
+
+- [Discordgo](https://github.com/bwmarrin/discordgo)
+- [Golang-stdlibs](https://pkg.go.dev/std)
+- [Gorilla websocket](https://github.com/gorilla/websocket)
