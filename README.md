@@ -64,3 +64,6 @@ This software uses the following open source packages:
 - [Discordgo](https://github.com/bwmarrin/discordgo)
 - [Golang-stdlibs](https://pkg.go.dev/std)
 - [Gorilla websocket](https://github.com/gorilla/websocket)
+- [Viper](github.com/spf13/viper)
+
+## You may also like...
