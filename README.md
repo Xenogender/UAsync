@@ -67,3 +67,5 @@ This software uses the following open source packages:
 - [Viper](github.com/spf13/viper)
 
 ## You may also like...
+
+- [Gocheckitout](https://github.com/Leoff00/gocheckitout) - My side project that makes request in websites simultaneously and check status and stuffs made with golang.
