@@ -71,3 +71,9 @@ This software uses the following open source packages:
 - [Gocheckitout](https://github.com/Leoff00/gocheckitout) - My side project that makes request in websites simultaneously and check status and stuffs made with golang.
 
 ## License
+
+MIT
+
+---
+
+## Others
