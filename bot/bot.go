@@ -15,3 +15,4 @@ import (
 var (
 	BotID string
 	goBot *discordgo.Session
+)
