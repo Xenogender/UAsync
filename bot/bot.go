@@ -24,3 +24,5 @@ func Start() {
 		fmt.Println(err.Error())
 		return
 	}
+
+	u, err := goBot.User("@me")
