@@ -11,3 +11,7 @@ import (
 	"github.com/Leoff00/go-diego-bot/handlers"
 	"github.com/bwmarrin/discordgo"
 )
+
+var (
+	BotID string
+	goBot *discordgo.Session
