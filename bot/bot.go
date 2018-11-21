@@ -16,3 +16,6 @@ var (
 	BotID string
 	goBot *discordgo.Session
 )
+
+func Start() {
+	goBot, err := discordgo.New("Bot " + config.Token)
