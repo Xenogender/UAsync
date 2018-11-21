@@ -6,3 +6,6 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+
+	"github.com/Leoff00/go-diego-bot/config"
+	"github.com/Leoff00/go-diego-bot/handlers"
