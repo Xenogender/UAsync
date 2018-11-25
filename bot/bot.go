@@ -32,3 +32,5 @@ func Start() {
 	}
 
 	BotID = u.ID
+
+	handler := handlers.HandlersProps{}
