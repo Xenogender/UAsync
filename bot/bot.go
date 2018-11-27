@@ -34,3 +34,8 @@ func Start() {
 	BotID = u.ID
 
 	handler := handlers.HandlersProps{}
+
+	goBot.AddHandler(handler.MessagePingPong())
+	goBot.AddHandler(handler.HelpJava())
+	goBot.AddHandler(handler.Greeting())
+	goBot.AddHandler(handler.Img())
