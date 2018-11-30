@@ -42,3 +42,5 @@ func Start() {
 	goBot.AddHandler(handler.MsgHelpCmd())
 
 	goBot.Identify.Intents = discordgo.IntentsAllWithoutPrivileged
+
+	err = goBot.Open()
