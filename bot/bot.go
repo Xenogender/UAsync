@@ -44,3 +44,7 @@ func Start() {
 	goBot.Identify.Intents = discordgo.IntentsAllWithoutPrivileged
 
 	err = goBot.Open()
+	defer goBot.Close()
+
+	if err != nil {
+		fmt.Println(err.Error())
