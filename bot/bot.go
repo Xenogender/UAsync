@@ -48,3 +48,4 @@ func Start() {
 
 	if err != nil {
 		fmt.Println(err.Error())
+		return
