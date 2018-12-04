@@ -51,3 +51,5 @@ func Start() {
 		return
 	}
 	fmt.Println("Bot is running!")
+
+	fmt.Println("Press Ctrl + C to exit.")
