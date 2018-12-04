@@ -55,3 +55,6 @@ func Start() {
 	fmt.Println("Press Ctrl + C to exit.")
 	stsignal := make(chan os.Signal, 1)
 	signal.Notify(stsignal, syscall.SIGINT, syscall.SIGTERM, os.Interrupt)
+
+	<-stsignal
+}
