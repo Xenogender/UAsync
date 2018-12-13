@@ -1,1 +1,1 @@
-package co
+package config
