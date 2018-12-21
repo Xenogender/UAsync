@@ -1,4 +1,4 @@
 package config
 
 import (
-	"encodi
+	"encoding/js
