@@ -1,4 +1,4 @@
 package config
 
 import (
-	"encoding/js
+	"encoding/json"
