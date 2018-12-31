@@ -4,4 +4,4 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/Leoff00/go-
+	"github.com/Leoff00/go-diego
