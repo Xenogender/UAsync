@@ -4,4 +4,6 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/Leoff00/go-diego-bot/envs
+	"github.com/Leoff00/go-diego-bot/envs"
+)
+
