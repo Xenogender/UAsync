@@ -8,4 +8,4 @@ import (
 )
 
 var (
-	Tok
+	Toke
