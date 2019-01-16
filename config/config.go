@@ -8,4 +8,4 @@ import (
 )
 
 var (
-	Token     stri
+	Token     string
