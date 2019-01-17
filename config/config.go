@@ -9,4 +9,4 @@ import (
 
 var (
 	Token     string
-	Bot
+	BotPrefix 
