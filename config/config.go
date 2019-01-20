@@ -11,4 +11,4 @@ var (
 	Token     string
 	BotPrefix string
 
-	config
+	config *
