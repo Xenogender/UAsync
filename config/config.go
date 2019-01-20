@@ -10,3 +10,5 @@ import (
 var (
 	Token     string
 	BotPrefix string
+
+	c
