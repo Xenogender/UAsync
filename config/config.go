@@ -14,4 +14,4 @@ var (
 	config *configProps
 )
 
-type conf
+type configPro
