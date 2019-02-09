@@ -14,4 +14,4 @@ var (
 	config *configProps
 )
 
-type configProps st
+type configProps stru
