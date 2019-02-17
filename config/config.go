@@ -15,4 +15,4 @@ var (
 )
 
 type configProps struct {
-	Token     s
+	Token     stri
