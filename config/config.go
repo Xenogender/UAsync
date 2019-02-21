@@ -15,4 +15,4 @@ var (
 )
 
 type configProps struct {
-	Token     string `json:"T
+	Token     string `json:"Token
