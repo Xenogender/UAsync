@@ -16,4 +16,4 @@ var (
 
 type configProps struct {
 	Token     string `json:"Token"`
-	BotPre
+	BotPrefi
