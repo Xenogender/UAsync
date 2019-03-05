@@ -19,3 +19,4 @@ type configProps struct {
 	BotPrefix string `json:"BotPrefix"`
 }
 
+f
