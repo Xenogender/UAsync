@@ -19,4 +19,4 @@ type configProps struct {
 	BotPrefix string `json:"BotPrefix"`
 }
 
-func ReadConfig(
+func ReadConfig()
