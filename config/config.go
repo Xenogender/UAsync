@@ -20,4 +20,4 @@ type configProps struct {
 }
 
 func ReadConfig() error {
-	file, err := os
+	file, err := os.Rea
