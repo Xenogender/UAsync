@@ -22,4 +22,4 @@ type configProps struct {
 func ReadConfig() error {
 	file, err := os.ReadFile("./config.json")
 
-	if err != nil
+	if err != nil {
