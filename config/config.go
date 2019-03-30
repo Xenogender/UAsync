@@ -23,4 +23,4 @@ func ReadConfig() error {
 	file, err := os.ReadFile("./config.json")
 
 	if err != nil {
-		return
+		return e
