@@ -24,3 +24,4 @@ func ReadConfig() error {
 
 	if err != nil {
 		return err
+	}
