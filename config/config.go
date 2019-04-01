@@ -26,4 +26,4 @@ func ReadConfig() error {
 		return err
 	}
 
-	er
+	err = 
