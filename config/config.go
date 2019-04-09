@@ -26,4 +26,4 @@ func ReadConfig() error {
 		return err
 	}
 
-	err = json.Unmarshal(file, &co
+	err = json.Unmarshal(file, &confi
