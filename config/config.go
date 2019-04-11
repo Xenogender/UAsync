@@ -27,3 +27,5 @@ func ReadConfig() error {
 	}
 
 	err = json.Unmarshal(file, &config)
+
+	i
