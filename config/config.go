@@ -29,3 +29,4 @@ func ReadConfig() error {
 	err = json.Unmarshal(file, &config)
 
 	if err != nil {
+		retur
