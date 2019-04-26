@@ -32,4 +32,4 @@ func ReadConfig() error {
 		return err
 	}
 
-	Token = envs.Get
+	Token = envs.Getenv
