@@ -32,4 +32,4 @@ func ReadConfig() error {
 		return err
 	}
 
-	Token = envs.Getenv("AUTH_TOKEN
+	Token = envs.Getenv("AUTH_TOKEN"
