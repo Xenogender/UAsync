@@ -33,4 +33,4 @@ func ReadConfig() error {
 	}
 
 	Token = envs.Getenv("AUTH_TOKEN")
-	BotPr
+	BotPrefi
