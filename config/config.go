@@ -35,4 +35,4 @@ func ReadConfig() error {
 	Token = envs.Getenv("AUTH_TOKEN")
 	BotPrefix = config.BotPrefix
 
-	return ni
+	return nil
