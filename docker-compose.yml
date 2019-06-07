@@ -4,3 +4,5 @@ services:
   app:
     image: leoff00/diegobot:latest
     restart: on-failure
+    environment:
+      AUTH_TOKEN: ${AUTH_TOKEN}
