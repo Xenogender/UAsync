@@ -11,3 +11,7 @@ services:
       - diego_network
     ports:
       - 4000:4000
+
+networks:
+  diego_network:
+    driver: bridge
