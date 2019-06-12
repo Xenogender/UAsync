@@ -14,3 +14,6 @@ func Getenv(envFile string) string {
 	if err := viper.ReadInConfig(); err != nil {
 		log.Default().Fatalln("Could not load environment variables", err)
 	}
+
+	return viper.GetString(envFile)
+}
