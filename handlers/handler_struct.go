@@ -8,3 +8,5 @@ type HandlersProps struct {
 	imgGenerator       func(s *discordgo.Session, m *discordgo.MessageCreate)
 	helpJavaHandler    func(s *discordgo.Session, m *discordgo.MessageCreate)
 	msgGreeting        func(s *discordgo.Session, m *discordgo.MessageCreate)
+	msgHelpCmd         func(s *discordgo.Session, m *discordgo.MessageCreate)
+}
