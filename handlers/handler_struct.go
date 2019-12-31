@@ -15,3 +15,6 @@ type SrcProps struct {
 	Original  string `json:"original"`
 	Large2X   string `json:"large2x"`
 	Large     string `json:"large"`
+	Medium    string `json:"medium"`
+	Small     string `json:"small"`
+	Portrait  string `json:"portrait"`
