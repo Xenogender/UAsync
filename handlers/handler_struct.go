@@ -10,3 +10,8 @@ type HandlersProps struct {
 	msgGreeting        func(s *discordgo.Session, m *discordgo.MessageCreate)
 	msgHelpCmd         func(s *discordgo.Session, m *discordgo.MessageCreate)
 }
+
+type SrcProps struct {
+	Original  string `json:"original"`
+	Large2X   string `json:"large2x"`
+	Large     string `json:"large"`
