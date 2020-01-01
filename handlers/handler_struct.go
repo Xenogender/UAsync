@@ -41,3 +41,5 @@ type AiResponse struct {
 	Per_Page      int           `json:"per_page"`
 	Photos        []*PhotoProps `json:"Photos"`
 	Total_Results int           `json:"total_results"`
+	Next_Page     string        `json:"next_page"`
+	Prev_Page     string        `json:"prev_page"`
