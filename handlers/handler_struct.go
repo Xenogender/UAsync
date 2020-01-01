@@ -38,3 +38,6 @@ type PhotoProps struct {
 
 type AiResponse struct {
 	Page          int           `json:"page"`
+	Per_Page      int           `json:"per_page"`
+	Photos        []*PhotoProps `json:"Photos"`
+	Total_Results int           `json:"total_results"`
