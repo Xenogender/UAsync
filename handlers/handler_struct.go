@@ -35,3 +35,6 @@ type PhotoProps struct {
 	Liked           bool      `json:"liked"`
 	Alt             string    `json:"alt"`
 }
+
+type AiResponse struct {
+	Page          int           `json:"page"`
