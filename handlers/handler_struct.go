@@ -25,3 +25,7 @@ type SrcProps struct {
 type PhotoProps struct {
 	ID              int       `json:"id"`
 	Width           int       `json:"width"`
+	Height          int       `json:"height"`
+	URL             string    `json:"url"`
+	Photographer    string    `json:"photographer"`
+	PhotographerURL string    `json:"photographer_url"`
