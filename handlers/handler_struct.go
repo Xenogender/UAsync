@@ -21,3 +21,7 @@ type SrcProps struct {
 	Landscape string `json:"landscape"`
 	Tiny      string `json:"tiny"`
 }
+
+type PhotoProps struct {
+	ID              int       `json:"id"`
+	Width           int       `json:"width"`
