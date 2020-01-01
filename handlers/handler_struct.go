@@ -18,3 +18,6 @@ type SrcProps struct {
 	Medium    string `json:"medium"`
 	Small     string `json:"small"`
 	Portrait  string `json:"portrait"`
+	Landscape string `json:"landscape"`
+	Tiny      string `json:"tiny"`
+}
