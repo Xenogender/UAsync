@@ -29,3 +29,6 @@ type PhotoProps struct {
 	URL             string    `json:"url"`
 	Photographer    string    `json:"photographer"`
 	PhotographerURL string    `json:"photographer_url"`
+	PhotographerID  int       `json:"photographer_id"`
+	AvgColor        string    `json:"avg_color"`
+	Src             *SrcProps `json:"Src"`
