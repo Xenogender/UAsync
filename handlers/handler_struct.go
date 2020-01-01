@@ -43,3 +43,4 @@ type AiResponse struct {
 	Total_Results int           `json:"total_results"`
 	Next_Page     string        `json:"next_page"`
 	Prev_Page     string        `json:"prev_page"`
+}
