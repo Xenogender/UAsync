@@ -32,3 +32,6 @@ type PhotoProps struct {
 	PhotographerID  int       `json:"photographer_id"`
 	AvgColor        string    `json:"avg_color"`
 	Src             *SrcProps `json:"Src"`
+	Liked           bool      `json:"liked"`
+	Alt             string    `json:"alt"`
+}
