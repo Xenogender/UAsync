@@ -13,3 +13,4 @@ var (
 	str        string
 	arr        []string
 	huf        *HandlerUtilFunctions
+	responseAi = make(chan *AiResponse)
