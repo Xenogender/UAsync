@@ -11,3 +11,5 @@ import (
 
 var (
 	str        string
+	arr        []string
+	huf        *HandlerUtilFunctions
