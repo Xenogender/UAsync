@@ -14,3 +14,5 @@ var (
 	arr        []string
 	huf        *HandlerUtilFunctions
 	responseAi = make(chan *AiResponse)
+	errC       = make(chan error)
+)
