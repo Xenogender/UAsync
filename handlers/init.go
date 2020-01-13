@@ -22,3 +22,6 @@ func (h *HandlersProps) MessagePingPong() func(s *discordgo.Session, m *discordg
 		if m.Author.ID == s.State.User.ID {
 			return
 		}
+
+		if m.Content == config.BotPrefix+"ping" {
+			_, _ = s.ChannelMessageSend(m.ChannelID, "pong")
