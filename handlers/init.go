@@ -36,3 +36,7 @@ func (h *HandlersProps) Img() func(s *discordgo.Session, m *discordgo.MessageCre
 	return func(s *discordgo.Session, m *discordgo.MessageCreate) {
 		if m.Author.ID == s.State.User.ID {
 			return
+		}
+
+		if m.Content != "" && strings.HasPrefix(m.Content, config.BotPrefix+"picture") {
+			data := huf.ParamSeparator(m.Content)
