@@ -29,3 +29,10 @@ func (h *HandlersProps) MessagePingPong() func(s *discordgo.Session, m *discordg
 		if m.Content == config.BotPrefix+"pong" {
 			_, _ = s.ChannelMessageSend(m.ChannelID, "ping")
 		}
+	}
+}
+
+func (h *HandlersProps) Img() func(s *discordgo.Session, m *discordgo.MessageCreate) {
+	return func(s *discordgo.Session, m *discordgo.MessageCreate) {
+		if m.Author.ID == s.State.User.ID {
+			return
