@@ -16,3 +16,6 @@ var (
 	responseAi = make(chan *AiResponse)
 	errC       = make(chan error)
 )
+
+func (h *HandlersProps) MessagePingPong() func(s *discordgo.Session, m *discordgo.MessageCreate) {
+	return func(s *discordgo.Session, m *discordgo.MessageCreate) {
