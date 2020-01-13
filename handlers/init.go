@@ -40,3 +40,5 @@ func (h *HandlersProps) Img() func(s *discordgo.Session, m *discordgo.MessageCre
 
 		if m.Content != "" && strings.HasPrefix(m.Content, config.BotPrefix+"picture") {
 			data := huf.ParamSeparator(m.Content)
+
+			go huf.PicGenerator(data, responseAi, errC)
