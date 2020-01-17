@@ -46,3 +46,6 @@ func (h *HandlersProps) Img() func(s *discordgo.Session, m *discordgo.MessageCre
 			select {
 			case res := <-responseAi:
 				var ogSize string
+
+				for _, p := range res.Photos {
+					ogSize = p.Src.Original
