@@ -51,3 +51,7 @@ func (h *HandlersProps) Img() func(s *discordgo.Session, m *discordgo.MessageCre
 					ogSize = p.Src.Original
 				}
 				_, _ = s.ChannelMessageSend(m.ChannelID, "Aqui esta o que você pediu! \n"+ogSize)
+
+			case err := <-errC:
+				if err != nil {
+					_, _ = s.ChannelMessageSend(m.ChannelID, err.Error())
