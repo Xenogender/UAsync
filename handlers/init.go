@@ -55,3 +55,7 @@ func (h *HandlersProps) Img() func(s *discordgo.Session, m *discordgo.MessageCre
 			case err := <-errC:
 				if err != nil {
 					_, _ = s.ChannelMessageSend(m.ChannelID, err.Error())
+				}
+			}
+		}
+	}
