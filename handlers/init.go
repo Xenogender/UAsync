@@ -49,3 +49,5 @@ func (h *HandlersProps) Img() func(s *discordgo.Session, m *discordgo.MessageCre
 
 				for _, p := range res.Photos {
 					ogSize = p.Src.Original
+				}
+				_, _ = s.ChannelMessageSend(m.ChannelID, "Aqui esta o que você pediu! \n"+ogSize)
