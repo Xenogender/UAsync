@@ -59,3 +59,6 @@ func (h *HandlersProps) Img() func(s *discordgo.Session, m *discordgo.MessageCre
 			}
 		}
 	}
+}
+
+func (h *HandlersProps) HelpJava() func(s *discordgo.Session, m *discordgo.MessageCreate) {
