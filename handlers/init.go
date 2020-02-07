@@ -68,3 +68,5 @@ func (h *HandlersProps) HelpJava() func(s *discordgo.Session, m *discordgo.Messa
 		}
 		str = fmt.Sprintf(
 			"Opa %s, uma bomba JS 💣? Esses caras podem te ajudar 👇 \n %s \n %s \n %s",
+			m.Author.Mention(),
+			"<@209655533500628992>",
