@@ -70,3 +70,6 @@ func (h *HandlersProps) HelpJava() func(s *discordgo.Session, m *discordgo.Messa
 			"Opa %s, uma bomba JS 💣? Esses caras podem te ajudar 👇 \n %s \n %s \n %s",
 			m.Author.Mention(),
 			"<@209655533500628992>",
+			"<@847935543018782772>",
+			"<@599980091136671754>",
+		)
