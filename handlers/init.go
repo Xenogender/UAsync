@@ -73,3 +73,7 @@ func (h *HandlersProps) HelpJava() func(s *discordgo.Session, m *discordgo.Messa
 			"<@847935543018782772>",
 			"<@599980091136671754>",
 		)
+
+		if strings.Contains(m.Content, config.BotPrefix+"java") == true {
+			_, _ = s.ChannelMessageSend(m.ChannelID, str)
+		}
