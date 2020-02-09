@@ -77,3 +77,5 @@ func (h *HandlersProps) HelpJava() func(s *discordgo.Session, m *discordgo.Messa
 		if strings.Contains(m.Content, config.BotPrefix+"java") == true {
 			_, _ = s.ChannelMessageSend(m.ChannelID, str)
 		}
+	}
+}
