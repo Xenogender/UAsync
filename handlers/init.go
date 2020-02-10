@@ -88,3 +88,5 @@ func (h *HandlersProps) Greeting() func(s *discordgo.Session, m *discordgo.Messa
 		if m.Content == "oi diego" {
 			_, _ = s.ChannelMessageSend(m.ChannelID, huf.RandPh(m.Author.Username))
 		}
+	}
+}
