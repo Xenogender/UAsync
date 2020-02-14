@@ -95,3 +95,6 @@ func (h *HandlersProps) MsgHelpCmd() func(s *discordgo.Session, m *discordgo.Mes
 	return func(s *discordgo.Session, m *discordgo.MessageCreate) {
 		if m.Author.ID == s.State.User.ID {
 			return
+		}
+
+		helpStr := fmt.Sprintf(`
