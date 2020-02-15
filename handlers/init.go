@@ -100,3 +100,4 @@ func (h *HandlersProps) MsgHelpCmd() func(s *discordgo.Session, m *discordgo.Mes
 		helpStr := fmt.Sprintf(`
 >Iaee %s meu nome é Die**go**, bot em go feito pra te ajudar com algumas 
 utilidades no server esses são os comandos pelo qual eu respondo:
+**oi diego -> responderei você de volta!**
