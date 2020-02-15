@@ -101,3 +101,6 @@ func (h *HandlersProps) MsgHelpCmd() func(s *discordgo.Session, m *discordgo.Mes
 >Iaee %s meu nome é Die**go**, bot em go feito pra te ajudar com algumas 
 utilidades no server esses são os comandos pelo qual eu respondo:
 **oi diego -> responderei você de volta!**
+**!picture [parametros] -> gerarei pra você uma imagem com o dado que você me forneceu!**
+**!java [mensagem] -> marcarei 3 pessoas que manjam de java no server para te ajudar!**
+**!ping ou !pong -> jogarei um ping pong com você :)!** `, m.Author.Username)
