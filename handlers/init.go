@@ -107,3 +107,6 @@ utilidades no server esses são os comandos pelo qual eu respondo:
 
 		if m.Content == config.BotPrefix+"help" {
 			_, _ = s.ChannelMessageSend(m.ChannelID, helpStr)
+		}
+	}
+}
