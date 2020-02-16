@@ -104,3 +104,6 @@ utilidades no server esses são os comandos pelo qual eu respondo:
 **!picture [parametros] -> gerarei pra você uma imagem com o dado que você me forneceu!**
 **!java [mensagem] -> marcarei 3 pessoas que manjam de java no server para te ajudar!**
 **!ping ou !pong -> jogarei um ping pong com você :)!** `, m.Author.Username)
+
+		if m.Content == config.BotPrefix+"help" {
+			_, _ = s.ChannelMessageSend(m.ChannelID, helpStr)
