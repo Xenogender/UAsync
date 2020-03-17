@@ -6,4 +6,4 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"math/ra
+	"math/ran
