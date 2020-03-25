@@ -9,4 +9,5 @@ import (
 	"math/rand"
 	"net/http"
 	"regexp"
-	"strin
+	"strings"
+	
