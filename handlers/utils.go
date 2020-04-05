@@ -12,4 +12,4 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Leoff00/go-
+	"github.com/Leoff00/go-die
