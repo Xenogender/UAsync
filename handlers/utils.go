@@ -12,4 +12,5 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Leoff00/go-diego-bot/env
+	"github.com/Leoff00/go-diego-bot/envs"
+)
