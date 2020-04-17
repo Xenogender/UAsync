@@ -16,4 +16,4 @@ import (
 )
 
 type HandlerUtilFunctions struct {
-	paramSeparat
+	paramSeparato
