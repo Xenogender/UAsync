@@ -16,4 +16,4 @@ import (
 )
 
 type HandlerUtilFunctions struct {
-	paramSeparator   func(content string) st
+	paramSeparator   func(content string) string
