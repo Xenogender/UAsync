@@ -17,4 +17,4 @@ import (
 
 type HandlerUtilFunctions struct {
 	paramSeparator   func(content string) string
-	rand
+	randPh
