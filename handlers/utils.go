@@ -17,4 +17,5 @@ import (
 
 type HandlerUtilFunctions struct {
 	paramSeparator   func(content string) string
-	randPhrase       func(user string) strin
+	randPhrase       func(user string) string
+	pict
