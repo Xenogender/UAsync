@@ -18,4 +18,4 @@ import (
 type HandlerUtilFunctions struct {
 	paramSeparator   func(content string) string
 	randPhrase       func(user string) string
-	pictureGenerator func(param 
+	pictureGenerator func(param str
