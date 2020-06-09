@@ -18,4 +18,5 @@ import (
 type HandlerUtilFunctions struct {
 	paramSeparator   func(content string) string
 	randPhrase       func(user string) string
-	pictureGenerator func(param string, resC chan *AiResponse, errC chan error) (chan *AiResponse, chan erro
+	pictureGenerator func(param string, resC chan *AiResponse, errC chan error) (chan *AiResponse, chan error)
+}
