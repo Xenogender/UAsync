@@ -20,3 +20,5 @@ type HandlerUtilFunctions struct {
 	randPhrase       func(user string) string
 	pictureGenerator func(param string, resC chan *AiResponse, errC chan error) (chan *AiResponse, chan error)
 }
+
+func (
