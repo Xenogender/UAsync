@@ -21,4 +21,4 @@ type HandlerUtilFunctions struct {
 	pictureGenerator func(param string, resC chan *AiResponse, errC chan error) (chan *AiResponse, chan error)
 }
 
-func (hu *HandlerUtilFunctions) ParamSeparator
+func (hu *HandlerUtilFunctions) ParamSeparator(mes
