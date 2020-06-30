@@ -22,4 +22,4 @@ type HandlerUtilFunctions struct {
 }
 
 func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
-	splitted
+	splitted 
