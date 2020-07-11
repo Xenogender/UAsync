@@ -24,4 +24,4 @@ type HandlerUtilFunctions struct {
 func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 	splitted := strings.Split(message, " ")
 	if len(splitted) < 2 {
-		log.Default().
+		log.Default().Fat
