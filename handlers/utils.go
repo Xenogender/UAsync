@@ -24,4 +24,4 @@ type HandlerUtilFunctions struct {
 func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 	splitted := strings.Split(message, " ")
 	if len(splitted) < 2 {
-		log.Default().Fatalln("Param is required
+		log.Default().Fatalln("Param is required.
