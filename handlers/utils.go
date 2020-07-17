@@ -26,3 +26,5 @@ func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 	if len(splitted) < 2 {
 		log.Default().Fatalln("Param is required.")
 	}
+
+	
