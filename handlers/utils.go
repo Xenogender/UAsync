@@ -27,4 +27,4 @@ func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 		log.Default().Fatalln("Param is required.")
 	}
 
-	return
+	return spl
