@@ -28,3 +28,5 @@ func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 	}
 
 	return splitted[1]
+
+}
