@@ -31,4 +31,4 @@ func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 
 }
 
-func (hu *H
+func (hu *Ha
