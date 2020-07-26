@@ -31,4 +31,4 @@ func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 
 }
 
-func (hu *HandlerUtilFunctions
+func (hu *HandlerUtilFunctions) R
