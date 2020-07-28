@@ -31,4 +31,4 @@ func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 
 }
 
-func (hu *HandlerUtilFunctions) RandP
+func (hu *HandlerUtilFunctions) RandPh(
