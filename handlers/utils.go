@@ -32,4 +32,4 @@ func (hu *HandlerUtilFunctions) ParamSeparator(message string) string {
 }
 
 func (hu *HandlerUtilFunctions) RandPh(user string) string {
-	rand.Seed(time.Now
+	rand.Seed(time.Now(
