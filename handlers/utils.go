@@ -35,4 +35,4 @@ func (hu *HandlerUtilFunctions) RandPh(user string) string {
 	rand.Seed(time.Now().Unix())
 	g1 := fmt.Sprintf("Ola %s!", user)
 	g2 := fmt.Sprintf("Iaee %s!", user)
-	g3 := fmt.Spri
+	g3 := fmt.Sprint
