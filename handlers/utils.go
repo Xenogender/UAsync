@@ -37,4 +37,4 @@ func (hu *HandlerUtilFunctions) RandPh(user string) string {
 	g2 := fmt.Sprintf("Iaee %s!", user)
 	g3 := fmt.Sprintf("Oiee %s!", user)
 
-	arr = append(arr, g1, g2
+	arr = append(arr, g1, g2, 
