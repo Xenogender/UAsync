@@ -39,3 +39,4 @@ func (hu *HandlerUtilFunctions) RandPh(user string) string {
 
 	arr = append(arr, g1, g2, g3)
 	return arr[rand.Intn(len(arr))]
+}
