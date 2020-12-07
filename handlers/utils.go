@@ -41,4 +41,4 @@ func (hu *HandlerUtilFunctions) RandPh(user string) string {
 	return arr[rand.Intn(len(arr))]
 }
 
-func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiRespo
+func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiRespons
