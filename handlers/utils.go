@@ -43,4 +43,5 @@ func (hu *HandlerUtilFunctions) RandPh(user string) string {
 
 func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse, errC chan error) (chan *AiResponse, chan error) {
 
-	rand.Seed(time.Now().Unix(
+	rand.Seed(time.Now().Unix())
+
