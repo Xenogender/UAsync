@@ -45,4 +45,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	rand.Seed(time.Now().Unix())
 
-	c := &ht
+	c := &htt
