@@ -47,4 +47,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	c := &http.Client{}
 
-	if regexp.MustCompile(param).Mat
+	if regexp.MustCompile(param).Match
