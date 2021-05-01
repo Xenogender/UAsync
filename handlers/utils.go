@@ -48,4 +48,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 	c := &http.Client{}
 
 	if regexp.MustCompile(param).MatchString(`$\s\D`) {
-		errC <- errors.New("Cannot send more than 
+		errC <- errors.New("Cannot send more than one
