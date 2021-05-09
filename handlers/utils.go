@@ -50,3 +50,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 	if regexp.MustCompile(param).MatchString(`$\s\D`) {
 		errC <- errors.New("Cannot send more than one param")
 	}
+
