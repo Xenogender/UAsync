@@ -51,4 +51,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 		errC <- errors.New("Cannot send more than one param")
 	}
 
-	api_url := fmt.S
+	api_url := fmt.Sp
