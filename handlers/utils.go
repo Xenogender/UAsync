@@ -51,4 +51,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 		errC <- errors.New("Cannot send more than one param")
 	}
 
-	api_url := fmt.Sprintf("https://api.pexels.com/v1/search?query=%s&page=%d&per_page=1
+	api_url := fmt.Sprintf("https://api.pexels.com/v1/search?query=%s&page=%d&per_page=1",
