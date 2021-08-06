@@ -56,4 +56,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	key_ia := envs.Getenv("API_KEY_IA")
 
-	re
+	req.H
