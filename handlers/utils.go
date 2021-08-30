@@ -58,3 +58,5 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	req.Header.Add("Authorization", key_ia)
 	req.Header.Add("X-Ratelimit-Limit", "10000")
+
+	i
