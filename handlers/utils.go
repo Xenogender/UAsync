@@ -60,4 +60,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 	req.Header.Add("X-Ratelimit-Limit", "10000")
 
 	if err != nil {
-		log.Defau
+		log.Default(
