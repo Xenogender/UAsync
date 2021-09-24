@@ -65,4 +65,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	res, err := c.Do(req)
 
-	if err != 
+	if err != n
