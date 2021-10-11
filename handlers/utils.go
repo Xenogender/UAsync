@@ -69,4 +69,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 		log.Default().Fatalln("Error during the request...", err)
 	}
 
-	body, err := ioutil.ReadAll
+	body, err := ioutil.ReadAll(
