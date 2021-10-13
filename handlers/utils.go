@@ -71,4 +71,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	body, err := ioutil.ReadAll(res.Body)
 
-	if err
+	if err != n
