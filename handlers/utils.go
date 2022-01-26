@@ -72,4 +72,5 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 	body, err := ioutil.ReadAll(res.Body)
 
 	if err != nil {
-		log.Default().Fatalln("Error while reading the response, response may be nil", err
+		log.Default().Fatalln("Error while reading the response, response may be nil", err)
+	
