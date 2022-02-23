@@ -75,4 +75,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 		log.Default().Fatalln("Error while reading the response, response may be nil", err)
 	}
 
-	var responseAI AiRespo
+	var responseAI AiResponse
