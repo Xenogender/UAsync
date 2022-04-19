@@ -77,4 +77,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	var responseAI AiResponse
 
-	err = json.Unmarshal(body,
+	err = json.Unmarshal(body, &r
