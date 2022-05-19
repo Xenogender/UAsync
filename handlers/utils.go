@@ -79,4 +79,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	err = json.Unmarshal(body, &responseAI)
 
-	if
+	if err !
