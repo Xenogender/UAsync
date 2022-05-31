@@ -83,4 +83,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 		log.Default().Fatalln(err)
 	}
 
-	resC 
+	resC <
