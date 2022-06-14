@@ -85,4 +85,4 @@ func (hu *HandlerUtilFunctions) PicGenerator(param string, resC chan *AiResponse
 
 	resC <- &responseAI
 
-	r
+	retur
