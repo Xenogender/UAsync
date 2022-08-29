@@ -3,4 +3,4 @@ package main
 import (
 	"fmt"
 
-	"github.com/Leoff00/go-dieg
+	"github.com/Leoff00/go-diego
