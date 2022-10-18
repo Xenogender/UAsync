@@ -7,4 +7,4 @@ import (
 	"github.com/Leoff00/go-diego-bot/config"
 )
 
-func mai
+func main
