@@ -9,4 +9,4 @@ import (
 
 func main() {
 
-	defer f
+	defer func
