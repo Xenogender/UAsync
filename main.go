@@ -10,4 +10,4 @@ import (
 func main() {
 
 	defer func() {
-		if r := recover(); r != 
+		if r := recover(); r != ni
