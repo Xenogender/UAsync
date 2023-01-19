@@ -15,4 +15,5 @@ func main() {
 		}
 	}()
 
-	err := config.ReadConfi
+	err := config.ReadConfig()
+
