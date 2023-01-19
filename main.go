@@ -15,4 +15,4 @@ func main() {
 		}
 	}()
 
-	err := config.Re
+	err := config.ReadCon
