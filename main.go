@@ -17,4 +17,4 @@ func main() {
 
 	err := config.ReadConfig()
 
-	if err != 
+	if err != n
