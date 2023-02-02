@@ -18,3 +18,4 @@ func main() {
 	err := config.ReadConfig()
 
 	if err != nil {
+		f
