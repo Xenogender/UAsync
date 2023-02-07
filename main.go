@@ -18,4 +18,4 @@ func main() {
 	err := config.ReadConfig()
 
 	if err != nil {
-		fmt.Println(er
+		fmt.Println(err.Err
