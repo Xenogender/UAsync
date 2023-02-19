@@ -21,4 +21,4 @@ func main() {
 		fmt.Println(err.Error())
 	}
 
-	bot.Sta
+	bot.Start()
